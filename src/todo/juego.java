@@ -198,10 +198,10 @@ Timer tiempoEspera1;
                                                 if(matAux[m][n] !=0 && matAux[m][n]!=-1){
                                                    matAux[m][n]= 0;
                                                    matriz[m][n].setIcon(new ImageIcon("imagenes/"+matAux[m][n]+".jpg"));
-                                                    System.out.println("hola");
+                                                    System.out.println("hola mundo");
                                                     contador=0;
                                                 }
-                                                 System.out.println("papa");
+                                                 System.out.println("");
                                             }
                                                 
                                             }
