@@ -103,7 +103,7 @@ Timer tiempoEspera1;
        
        
         cronometro= new JLabel(); 
-       cronometro.setSize(150,20);
+       cronometro.setSize(150,25);
        cronometro.setLocation(ventana.getWidth()-200,10);
        cronometro.setForeground(Color.WHITE);
        cronometro.setVisible(true);
@@ -167,7 +167,7 @@ Timer tiempoEspera1;
                             if(e.getSource()== matriz [k][l]){
                                 //System.out.println(k+" "+l);
                                
-                                //BORRA LA MITAD PARA EL VIDEO 4
+                               
                                 
                                 if(matAux [k][l]==0&& contador !=2){
                                     
